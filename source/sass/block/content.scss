@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+
+  &--form {
+    background-color: #1b2d37;
+  }
+}
+
+.content__footer {
+  flex: 0 0 auto;
+}

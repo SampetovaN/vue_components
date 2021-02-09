@@ -1,0 +1,16 @@
+.textarea {
+  width: 100%;
+  padding-left: 17px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 0;
+
+  @include set-mono-text(16px,14px);
+  @include color-input;
+
+  @media (max-width: $width-desktop) {
+    padding-left: 21px;
+    padding-top: 15px;
+  }
+}

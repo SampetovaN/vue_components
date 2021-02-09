@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__up {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input-list {
+  @include list-refresh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media (max-width: $width-laptop) {
+    flex-direction: column;
+  }
+}
+
+.form__input {
+  margin-bottom: 34px;
+
+  @include set-mono-text(16px,14px);
+  color: #ffffff;
+
+  input {
+    cursor: pointer;
+    border-radius: 0;
+    padding-left: 17px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    width: 100%;
+    box-sizing: border-box;
+
+    @include color-input;
+
+    @media (max-width: $width-desktop) {
+      padding-left: 20px;
+    }
+
+    @media (max-width: $width-laptop) {
+      padding-left: 17px;
+      padding-top: 11px;
+    }
+  }
+
+  @media (max-width: $width-laptop) {
+    margin-bottom: 30px;
+  }
+}
+
+.form__button {
+  background-color: transparent;
+  padding-left: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  width: 51%;
+  box-sizing: border-box;
+  display: block;
+  order: -1;
+
+  @include text-sets(16px,14px);
+  @include set-hover(#ffffff);
+  outline: none;
+
+  @media (max-width: $width-desktop) {
+    width: 48%;
+  }
+
+  @media (max-width: $width-laptop) {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}

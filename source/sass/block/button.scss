@@ -1,0 +1,9 @@
+.button {
+  @include text-sets(11px, 16px, 700);
+  @include set-opacity;
+  cursor: pointer;
+  text-transform: uppercase;
+  font: inherit;
+  text-align: center;
+  border: none;
+}

@@ -1,0 +1,37 @@
+.site-list__item {
+  margin-right: 66px;
+
+  a {
+    @include set-opacity;
+  }
+
+  span {
+    @include set-mono-text(16px,17px, 400);
+    color: #ffffff;
+
+    @media (max-width: $width-desktop) {
+      @include reset-el;
+    }
+  }
+
+  @media (max-width: $width-desktop) {
+    padding-right: 0;
+    margin-right: 34px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+    }
+
+    svg {
+      transform: scale(1.4);
+    }
+  }
+
+  @media (max-width: $width-laptop) {
+    margin-right: 35px;
+  }
+}

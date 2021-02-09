@@ -1,0 +1,171 @@
+.consult {
+  background-color: #00b2ff;
+  padding-bottom: 5.7%;
+  position: relative;
+  z-index: 5;
+  background-image: url("../img/paper-airplane.png");
+  background-repeat: no-repeat;
+  background-size: 36%;
+  background-position: 14% 50%;
+
+  @media (width: $width-desktop-pattern) {
+    background-position: 14% -61px;
+  }
+
+  @media (max-width: $width-desktop) {
+    background-image: none;
+    padding-bottom: 13.7%;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding-bottom: 14.7%;
+  }
+
+
+  h2 {
+    @include text-sets(36px, 50px);
+    color: #ffffff;
+    margin: 0;
+    padding-top: 9%;
+    padding-left: 1%;
+
+    @media (max-width: $width-desktop) {
+      @include text-correct(32px, 45px);
+      padding-top: 14%;
+      padding-left: 0;
+    }
+
+    @media (max-width: $width-laptop) {
+      @include text-correct(28px, 39px);
+      padding-top: 10%;
+    }
+  }
+
+  p {
+    @include set-mono-text(16px, 21px);
+    color: #ffffff;
+    padding-left: 1%;
+    margin-bottom: 5%;
+
+    @media (max-width: $width-desktop) {
+      margin-bottom: 9%;
+    }
+  }
+}
+
+@media (min-resolution: $retina-dppx) and (min-resolution: $retina-dpi) {
+  .consult {
+    background-image: url("../img/paper-airplane@2x.png");
+
+    @media (max-width: $width-desktop) {
+      background-image: none;
+    }
+  }
+}
+
+
+.consult__wrapper {
+  width: 50%;
+  margin-left: auto;
+
+  @media (max-width: $width-desktop) {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 11% 0 12%;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding: 0 4%;
+  }
+}
+
+.consult__form {
+  padding: 0 21% 0 1.4%;
+  padding-right: 0;
+  flex-direction: column;
+  width: 61.3%;
+  min-width: 491px;
+  box-sizing: border-box;
+
+  @media (max-width: $width-desktop) {
+    padding: 0;
+    width: auto;
+    min-width: auto;
+  }
+}
+
+.consult__up {
+  @media (max-width: $width-desktop) {
+    padding: 0;
+  }
+}
+
+.consult__input {
+  width: 48%;
+  margin-right: 3.3%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media (max-width: $width-desktop) {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  @media (max-width: $width-laptop) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.consult__textarea {
+  width: 100%;
+  margin-bottom: 34px;
+
+  @media (max-width: $width-desktop) {
+    padding: 0;
+    margin-bottom: 42px;
+  }
+
+  @media (max-width: $width-laptop) {
+    margin-bottom: 19px;
+  }
+}
+
+.consult__down {
+  display: flex;
+  align-items: center;
+  padding-right: 8%;
+
+  @media (max-width: $width-desktop) {
+    padding: 0;
+  }
+
+  @media (max-width: $width-laptop) {
+    flex-direction: column;
+  }
+}
+
+.consult__checkbox {
+  width: 42%;
+  margin-left: auto;
+
+  @media (max-width: $width-desktop) {
+    width: 44%;
+    padding-right: 2%;
+  }
+
+  @media (max-width: $width-laptop) {
+    width: 100%;
+  }
+}
+
+.consult__textarea-input {
+  border-radius: 0;
+  height: 160px;
+
+  @media (max-width: $width-laptop) {
+    height: 108px;
+  }
+}

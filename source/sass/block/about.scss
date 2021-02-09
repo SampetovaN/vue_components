@@ -1,0 +1,147 @@
+.about {
+  padding: 0 20%;
+
+  @media (max-width: $width-desktop) {
+    padding: 0 3% 0 0;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding: 0 4%;
+  }
+}
+
+.about__wrapper {
+  position: relative;
+  padding-left: 169px;
+  padding-bottom: 5%;
+  margin: 8% auto 0;
+
+
+  h2 {
+    @include text-sets(36px, 50px);
+    color: #666666;
+    margin-bottom: 2.4%;
+
+    @media (max-width: $width-desktop) {
+      @include text-correct(32px, 45px);
+      margin-bottom: 5.4%;
+    }
+
+    @media (max-width: $width-laptop) {
+      @include text-correct(28px, 39px);
+      margin-bottom: 9.4%;
+    }
+  }
+
+  p {
+    @include set-mono-text(16px, 21px);
+    color: #666666;
+  }
+
+  &::after {
+    content: "";
+
+    @include text-sets(156px, 219px, 700);
+    background-image: url("../img/year.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 148px;
+    position: absolute;
+    top: 3%;
+    left: -3%;
+
+    @media (max-width: $width-desktop) {
+      transform: scale(1.1);
+      top: 7%;
+      left: 1%;
+    }
+
+    @media (max-width: $width-laptop) {
+      display: none;
+      position: static;
+    }
+  }
+
+  @media (max-width: $width-desktop) {
+    margin: 4% auto 0;
+    padding-left: 213px;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding-left: 0;
+    margin: 12% auto 0;
+  }
+}
+
+
+@media (min-resolution: $retina-dppx) and (min-resolution: $retina-dpi) {
+  .about__wrapper {
+    &::after {
+      background-image: url("../img/year@2x.png");
+      background-size: 148.5%;
+    }
+  }
+}
+
+
+.about__first-paragraph {
+  margin-bottom: 2.3%;
+
+  @media (max-width: $width-desktop) {
+    margin-bottom: 4.3%;
+  }
+
+  @media (max-width: $width-laptop) {
+    margin-bottom: 15%;
+  }
+}
+
+.about__second-paragraph {
+  margin-bottom: 4.3%;
+
+  @media (max-width: $width-desktop) {
+    margin-bottom: 8.3%;
+  }
+
+  @media (max-width: $width-laptop) {
+    margin-bottom: 12%;
+  }
+}
+
+
+.about__button {
+  @include text-sets(14px, 16px, 700);
+  color: #00b2ff;
+  border: 1px solid #00b2ff;
+  border-radius: 5px;
+  padding: 1.4% 0;
+  display: block;
+  width: 179px;
+
+
+  @media (max-width: $width-desktop) {
+    width: 34%;
+    max-width: 208px;
+    padding: 2.4% 0;
+  }
+
+  @media (max-width: $width-laptop) {
+    width: 62%;
+    padding: 15px 0;
+    max-width: 200px;
+  }
+}
+
+.about__full {
+  @media (max-width: $width-desktop) {
+    display: none;
+  }
+}
+
+.about__short {
+  display: none;
+
+  @media (max-width: $width-desktop) {
+    display: inline;
+  }
+}

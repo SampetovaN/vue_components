@@ -1,29 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="first commit" />
+    <list default="true" id="39c21405-61e3-4834-a500-9ec5d12430eb" name="Default Changelist" comment="fix 2">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/pt-mono-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/pt-mono-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/roboto-condensed-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/roboto-condensed-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/roboto-condensed-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/roboto-condensed-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-accessories@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro-laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro-laptop@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro-mobile@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-device-intro@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-mounting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-mounting@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-production.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-production@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-top@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-year@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/paper-airplane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/paper-airplane@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/polygon-group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/polygon-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/year@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/style.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/pt-mono-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/pt-mono-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/roboto-condensed-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/roboto-condensed-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/roboto-condensed-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fonts/roboto-condensed-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-accessories@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro-laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro-laptop@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro-mobile@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-device-intro@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-mounting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-mounting@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-production.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-production@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-top@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/bg-year@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/logo-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/paper-airplane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/paper-airplane@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/polygon-group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/polygon-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/year@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/block-focus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/focus-trap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/local-storage-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/scroll-block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/advantages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/body-lock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/consult.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/copyright.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/intro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/main-info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/main-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/site-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/textarea.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/block/visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-detective.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-hired.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-logo-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-odnoklassniki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-stopwatch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sprite/sprite-vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/image.minmizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_03/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_05/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_10/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_20/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_24/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_24/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/lib/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/lib/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/lib/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/lib/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/lib/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/lib/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0e8bddda34abb207db1858f6efd20f725f0f212d" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  <component name="ProjectId" id="1nILjCh51Fk0h05oBNDK459VXDH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nikas\WebstormProjects\experiments" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\build\img" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\source\img" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\source\js" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\source\sass\block" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikas\WebstormProjects\experiments\source\sprite" />
+      <recent name="C:\Users\nikas\WebstormProjects\experiments" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\source\img" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\build\img" />
+      <recent name="C:\Users\nikas\WebstormProjects\smart-device\source\sass\block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="sprite" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sprite" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="stylelint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="stylelint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.stylelint" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.sprite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1612383243088</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39c21405-61e3-4834-a500-9ec5d12430eb" name="Default Changelist" comment="" />
+      <created>1611072791560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611072791560</updated>
+      <workItem from="1611072794480" duration="2813000" />
+      <workItem from="1611075617510" duration="5000" />
+      <workItem from="1611139374788" duration="25034000" />
+      <workItem from="1611229135800" duration="27252000" />
+      <workItem from="1611311563811" duration="1114000" />
+      <workItem from="1611403229791" duration="40794000" />
+      <workItem from="1611495685176" duration="27554000" />
+      <workItem from="1611571193861" duration="35091000" />
+      <workItem from="1611645207751" duration="5481000" />
+      <workItem from="1611734860891" duration="8755000" />
+      <workItem from="1611843481153" duration="31423000" />
+      <workItem from="1611907402256" duration="14385000" />
+      <workItem from="1612269810932" duration="1254000" />
+      <workItem from="1612297256806" duration="12327000" />
+      <workItem from="1612377801072" duration="481000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1611075219954</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1612383243088</updated>
+      <updated>1611075219954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add images + html, gulp">
+      <created>1611164418275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611164418275</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add fonts - text decoration">
+      <created>1611179208063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611179208063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add fonts - text decoration">
+      <created>1611180802029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180802029</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add fonts - text decoration">
+      <created>1611180818262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180818262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add fonts - text decoration">
+      <created>1611180823882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180823882</updated>
+    </task>
+    <task id="LOCAL-00007" summary="down page">
+      <created>1611444711307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611444711307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="js">
+      <created>1611524254636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611524254636</updated>
+    </task>
+    <task id="LOCAL-00009" summary="minor js fixes">
+      <created>1611591687048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611591687048</updated>
+    </task>
+    <task id="LOCAL-00010" summary="minor js fixes">
+      <created>1611593536510</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611593536510</updated>
+    </task>
+    <task id="LOCAL-00011" summary="minor js fixes">
+      <created>1611593564490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611593564490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="minor fixes">
+      <created>1611613660598</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611613660598</updated>
+    </task>
+    <task id="LOCAL-00013" summary="minor fixes">
+      <created>1611647560961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611647560961</updated>
+    </task>
+    <task id="LOCAL-00014" summary="minor fixes">
+      <created>1611736527908</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611736527908</updated>
+    </task>
+    <task id="LOCAL-00015" summary="minor fixes">
+      <created>1611736546633</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611736546633</updated>
+    </task>
+    <task id="LOCAL-00016" summary="minor fixes">
+      <created>1611747318096</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611747318096</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add vendor file">
+      <created>1611761917477</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611761917477</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add vendor file">
+      <created>1611850214602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850214602</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add vendor file">
+      <created>1611850393733</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850393733</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add vendor file">
+      <created>1611850566342</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850566342</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add vendor file">
+      <created>1611850846341</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850846341</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add vendor file">
+      <created>1611865680940</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611865680940</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add vendor file">
+      <created>1611875896553</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611875896553</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix all bugs">
+      <created>1611920324490</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611920324490</updated>
+    </task>
+    <task id="LOCAL-00025" summary="minor fix">
+      <created>1611928295525</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611928295525</updated>
+    </task>
+    <task id="LOCAL-00026" summary="minor fix">
+      <created>1612307930107</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612307930107</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix 2">
+      <created>1612309232784</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1612309232784</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -38,7 +530,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="start" />
+    <MESSAGE value="add images + html, gulp" />
+    <MESSAGE value="add fonts - text decoration" />
+    <MESSAGE value="down page" />
+    <MESSAGE value="js" />
+    <MESSAGE value="minor js fixes" />
+    <MESSAGE value="minor fixes" />
+    <MESSAGE value="add vendor file" />
+    <MESSAGE value="fix all bugs" />
+    <MESSAGE value="minor fix" />
+    <MESSAGE value="fix 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 2" />
   </component>
 </project>

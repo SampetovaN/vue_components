@@ -1,0 +1,58 @@
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+
+  @media (width: $width-desktop-pattern) {
+    width: 71%;
+  }
+
+  @media (max-width: $width-desktop) {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3.3% 4% 2% 3%;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  &--nojs {
+    @media (max-width: $width-laptop) {
+      border-bottom: 0;
+
+      .h2 {
+        border: none;
+      }
+
+      .tab__toggle {
+        display: block;
+      }
+
+      .tab__button {
+        tab-index: -1;
+        position: static;
+        cursor: unset;
+
+        &:active {
+          opacity: 1;
+        }
+
+        &:hover,
+        &:focus, {
+          opacity: 1;
+        }
+
+        &::after {
+          display: none;
+          position: static;
+        }
+      }
+
+      .tab__content {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.info {
+  background-image: url("../img/polygon-group.svg");
+  background-position: 16% 31%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5.7%;
+  padding-bottom: 2.7%;
+
+  @media (max-width: $width-desktop) {
+    padding-top: 6.8%;
+    background-image: url("../img/polygon-laptop.svg");
+    background-position: 108% 48%;
+    background-size: 76% 82%;
+    padding-bottom: 5.7%;
+  }
+
+  @media (max-width: $width-laptop) {
+    padding-top: 11.4%;
+    padding-bottom: 16.7%;
+    background-size: cover;
+    background-position-y: -97px;
+    background-position-x: 50%;
+  }
+}

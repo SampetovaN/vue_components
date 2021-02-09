@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Печатные платы: производство и монтаж, поставка комплектующих, блоков и модулей.">
+  <title>Smart Device: Заполнение формы</title>
+  <link rel="preload" href="fonts/roboto-condensed-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-condensed-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/pt-mono-regular.woff2" as="font" crossorigin="anonymous">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="content content--form">
+<header class="header">
+  <nav class="main-nav">
+    <a class="main-nav__logo" href="index.html">
+      <picture>
+        <source media="(max-width: 767px)" srcset="img/logo-mobile.svg">
+        <img src="img/logo.svg" width="216" height="52" alt="Логотип Smart Device">
+      </picture>
+    </a>
+  </nav>
+</header>
+<main class="main">
+  <h1 class="visually-hidden">Форма для бронирования звонка</h1>
+  <section class="popup popup--separate">
+    <div class="popup__wrapper">
+      <h2>Закажите звонок</h2>
+      <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+      <form class="form popup__form" action="#">
+        <div class="form__up popup_up">
+          <ul class="form__input-list popup__input-list">
+            <li class="form__input popup__input">
+              <label class="visually-hidden" for="name">Ваше имя:</label>
+              <input type="text" name="user-name" id="name" placeholder="Имя" required="" autofocus="">
+            </li>
+            <li class="form__input form__input--phone popup__input">
+              <label class="visually-hidden" for="phone">Ваш номер телефона:</label>
+              <input type="text" name="user-phone" id="phone" placeholder="Телефон" required="" pattern="^(\+?\d)?[\s\-]?\(?[0-9]{3}\)?[\s\-]?[0-9]{3}([\s\-]?[0-9]{2}){2}$">
+            </li>
+          </ul>
+          <div class="form__textarea popup__textarea">
+            <label for="question" class="visually-hidden">Напишите ваш вопрос:</label>
+            <textarea class="popup__textarea-input textarea" name="question" id="question" placeholder="Ваш вопрос"></textarea>
+          </div>
+        </div>
+        <div class="form__down popup__down">
+          <div class="popup__checkbox checkbox">
+            <input type="checkbox" name="add-service" id="popup-service" required="">
+            <label class="checkbox__label" for="popup-service">Я согласен на обработку персональных данных</label>
+          </div>
+          <button class="button form__button popup__button" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+</div>
+</body>
+</html>
