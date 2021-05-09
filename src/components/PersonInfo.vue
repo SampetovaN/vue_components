@@ -44,12 +44,14 @@
           aria-hidden
           class="absolute inset-0 bg-blue-200 opacity-50 rounded-full"
         ></span>
-        <button
+        <router-link
           type="button"
-          class="relative hover:opacity-40 outline-none focus:outline-none"
+          class="relative hover:opacity-40 outline-none focus:outline-none font-normal"
+          @click="viewPerson"
+          to="/person"
         >
           Посмотреть
-        </button>
+        </router-link>
       </span>
     </div>
   </div>
@@ -66,6 +68,7 @@
 </style>
 
 <script>
+import { mapActions } from "vuex";
 export default {
   name: "PersonInfo",
   data() {
@@ -87,12 +90,16 @@ export default {
       return this.person.first_name + " " + this.person.last_name;
     },
     personPhoto() {
-      return this.person.avatar || this.defaultPhoto;
+      return this.person.avatar;
     }
   },
   methods: {
+    ...mapActions(["GET_CURRENT_PERSON"]),
     deletePerson() {
       this.$emit("deletePerson");
+    },
+    viewPerson() {
+      this.GET_CURRENT_PERSON(this.person);
     }
   }
 };

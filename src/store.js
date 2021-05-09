@@ -46,7 +46,8 @@ export default createStore({
         avatar: "https://reqres.in/img/faces/6-image.jpg"
       }
     ],
-    searchValue: ""
+    searchValue: "",
+    currentPerson: null
   },
   mutations: {
     SET_SEARCH_VALUE(state, value) {
@@ -54,11 +55,17 @@ export default createStore({
     },
     REMOVE_PERSON(state, index) {
       state.people.splice(index, 1);
+    },
+    SET_CURRENT_PERSON(state, value) {
+      state.currentPerson = value;
     }
   },
   actions: {
     GET_SEARCH_VALUE({ commit }, value) {
       commit("SET_SEARCH_VALUE", value);
+    },
+    GET_CURRENT_PERSON({ commit }, value) {
+      commit("SET_CURRENT_PERSON", value);
     },
     DELETE_PERSON({ commit }, index) {
       commit("REMOVE_PERSON", index);
@@ -70,6 +77,9 @@ export default createStore({
     },
     SEARCH_VALUE(state) {
       return state.searchValue;
+    },
+    CURRENT_PERSON(state) {
+      return state.currentPerson;
     }
   }
 });

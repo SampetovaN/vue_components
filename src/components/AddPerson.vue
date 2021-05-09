@@ -5,13 +5,18 @@
         <div
           class="flex-shrink-0 w-20 h-10 align-top block m-0 mb-auto mt-auto"
         >
-          <label for="photo">Выбрать фото</label>
+          <label
+            for="photo"
+            class="cursor-pointer hover:bg-gray-300 hover:text-gray-500 opacity-50 rounded-full bg-gray-200 p-0.5"
+            >Выбрать фото</label
+          >
           <input type="file" id="photo" class="visually-hidden" />
         </div>
         <div class="ml-3 w-full">
           <input
             placeholder="Имя"
-            class="appearance-none rounded-sm border border-gray-400 border-b block pl-8 pr-6 py-2 w-full bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
+            class="cursor-pointer hover:border-gray-800 appearance-none rounded-sm border border-gray-400 border-b block pl-8 pr-6 py-2 w-full bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
+            required
           />
         </div>
       </div>
@@ -19,7 +24,7 @@
     <div class="table-cell px-5 py-5 border-b border-gray-200 bg-white text-sm">
       <input
         placeholder="Почта"
-        class="appearance-none rounded-sm border border-gray-400 border-b block pl-8 pr-6 py-2 w-full bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
+        class="cursor-pointer hover:border-gray-800 appearance-none rounded-sm border border-gray-400 border-b block pl-8 pr-6 py-2 w-full bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
       />
     </div>
     <div class="table-cell px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -51,6 +56,11 @@ form .table-cell {
 
 <script>
 export default {
-  name: "AddPerson"
+  name: "AddPerson",
+  data() {
+    return {
+      newPerson: null
+    };
+  }
 };
 </script>

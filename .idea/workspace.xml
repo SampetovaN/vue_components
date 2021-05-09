@@ -1,72 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/open-sans-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/open-sans-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/gold@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/premium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/premium@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/silver@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/visually-hidden.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddPerson.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Filter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PersonInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/People.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Person.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Range.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="part 2 start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_03/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_05/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_10/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_20/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_24/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_24/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_25/lib/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_30/lib/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_35/lib/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_45/lib/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/lib/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_tutorial/files/lab_50/lib/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddPerson.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddPerson.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/People.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/People.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Person.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,9 +81,25 @@
       <option name="presentableId" value="Default" />
       <updated>1620234051043</updated>
       <workItem from="1620234052757" duration="170000" />
-      <workItem from="1620234373370" duration="25748000" />
+      <workItem from="1620234373370" duration="26272000" />
+      <workItem from="1620318692133" duration="1699000" />
+      <workItem from="1620554706583" duration="9505000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part 2 start">
+      <created>1620260817372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620260817373</updated>
+    </task>
+    <task id="LOCAL-00003" summary="part 2 start">
+      <created>1620260826122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620260826122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="part 2 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2 start" />
   </component>
 </project>
