@@ -6,7 +6,7 @@
           <img
             class="w-full h-full rounded-full"
             :src="personPhoto"
-            :alt="personPhoto ? personName : ''"
+            :alt="personName"
           />
         </div>
         <div class="ml-3">
@@ -71,12 +71,6 @@
 import { mapActions } from "vuex";
 export default {
   name: "PersonInfo",
-  data() {
-    return {
-      defaultPhoto:
-        "https://thumbs.dreamstime.com/z/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
-    };
-  },
   props: {
     person: {
       type: Object,

@@ -38,7 +38,7 @@
                 :person="person"
                 @deletePerson="deletePerson(index)"
               />
-              <AddPerson />
+              <AddPerson @createNewPerson="createNewPerson" />
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default {
     };
   },
   methods: {
-    ...mapActions(["DELETE_PERSON"]),
+    ...mapActions(["DELETE_PERSON", "GET_PEOPLE"]),
     deletePerson(index) {
       this.DELETE_PERSON(index);
       this.filteredPeople = [...this.PEOPLE];
@@ -84,6 +84,9 @@ export default {
       } else {
         this.filteredPeople = this.PEOPLE;
       }
+    },
+    createNewPerson() {
+      this.filteredPeople = [...this.PEOPLE];
     }
   },
   watch: {
@@ -92,6 +95,7 @@ export default {
     }
   },
   mounted() {
+    this.GET_PEOPLE();
     this.filterPeople(this.SEARCH_VALUE);
   }
 };

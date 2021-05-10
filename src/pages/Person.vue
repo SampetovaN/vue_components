@@ -74,18 +74,21 @@ export default {
     }
   },
   methods: {
-    ...mapActions(["GET_CURRENT_PERSON"])
-  },
-  mounted() {
-    if (this.CURRENT_PERSON) {
-      let parsed = JSON.stringify(this.CURRENT_PERSON);
-      localStorage.setItem("current", parsed);
-    } else {
-      const current = localStorage.getItem("current");
-      if (current) {
-        this.GET_CURRENT_PERSON(JSON.parse(current));
+    ...mapActions(["GET_CURRENT_PERSON"]),
+    getPersonInfo() {
+      if (this.CURRENT_PERSON) {
+        let parsed = JSON.stringify(this.CURRENT_PERSON);
+        localStorage.setItem("current", parsed);
+      } else {
+        const current = localStorage.getItem("current");
+        if (current) {
+          this.GET_CURRENT_PERSON(JSON.parse(current));
+        }
       }
     }
+  },
+  mounted() {
+    this.getPersonInfo();
   }
 };
 </script>

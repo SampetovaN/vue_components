@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="part 2 start">
+    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="TODO&#10;- addUser&#10;- Range">
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RangeComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddPerson.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddPerson.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PersonInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonInfo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/People.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/People.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Person.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Range.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Range.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Документы/GitHub/daem-dengi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -83,7 +95,8 @@
       <workItem from="1620234052757" duration="170000" />
       <workItem from="1620234373370" duration="26272000" />
       <workItem from="1620318692133" duration="1699000" />
-      <workItem from="1620554706583" duration="9505000" />
+      <workItem from="1620554706583" duration="9707000" />
+      <workItem from="1620665910452" duration="24933000" />
     </task>
     <task id="LOCAL-00002" summary="part 2 start">
       <created>1620260817372</created>
@@ -99,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620260826122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TODO&#10;- addUser&#10;- Range">
+      <created>1620564600632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620564600632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +141,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="part 2 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 start" />
+    <MESSAGE value="TODO&#10;- addUser&#10;- Range" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO&#10;- addUser&#10;- Range" />
   </component>
 </project>

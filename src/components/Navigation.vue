@@ -7,7 +7,7 @@
             <router-link
               to="/"
               class="relative block py-6 px-2 lg:p-6 text-sm lg:text-base font-bold"
-              >Пользователи</router-link
+              >{{ nameRoute }}</router-link
             >
           </li>
           <li class="hover:text-gray-500">
@@ -34,6 +34,11 @@
 
 <script>
 export default {
-  name: "Navigation"
+  name: "Navigation",
+  computed: {
+    nameRoute() {
+      return this.$route.path === "/person" ? "Назад" : "Пользователи";
+    }
+  }
 };
 </script>
