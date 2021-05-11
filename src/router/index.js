@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Range from "@/pages/Range.vue";
 import People from "@/pages/People.vue";
 import Person from "@/pages/Person.vue";
 
-const history = createWebHistory();
+const history = createWebHashHistory();
 const router = createRouter({
   history,
   routes: [
