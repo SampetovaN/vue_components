@@ -10,16 +10,24 @@ export default createStore({
     SET_SEARCH_VALUE(state, value) {
       state.searchValue = value;
     },
-    REMOVE_PERSON(state, index) {
+    REMOVE_PERSON(state, person) {
       let current = localStorage.getItem("current");
+      let oldArray = state.people;
+      state.people = [];
       if (current) {
         current = JSON.parse(current);
-        console.log(state.people[index].id, current.id);
-        if (state.people[index].id === current.id) {
-          localStorage.removeItem("current");
-        }
       }
-      state.people.splice(index, 1);
+
+      oldArray.forEach(per => {
+        if (per.id !== person.id) {
+          state.people.push(per);
+        }
+        if (current) {
+          if (per.id === current.id) {
+            localStorage.removeItem("current");
+          }
+        }
+      });
       localStorage.setItem("people", JSON.stringify(state.people));
     },
     SET_CURRENT_PERSON(state, value) {
@@ -83,6 +91,9 @@ export default createStore({
         );
         state.people = JSON.parse(localStorage.getItem("people"));
       }
+    },
+    UNSET_SEARCH_VALUE(state) {
+      state.searchValue = "";
     }
   },
   actions: {
@@ -100,6 +111,9 @@ export default createStore({
     },
     GET_PEOPLE({ commit }) {
       commit("SET_PEOPLE");
+    },
+    REFRESH_SEARCH_VALUE({ commit }) {
+      commit("UNSET_SEARCH_VALUE");
     }
   },
   getters: {

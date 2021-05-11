@@ -9,6 +9,7 @@
         </svg>
       </span>
       <input
+        ref="searchInput"
         placeholder="Search"
         v-model="searchValue"
         @input="search(searchValue)"

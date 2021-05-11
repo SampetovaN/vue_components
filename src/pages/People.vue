@@ -33,10 +33,10 @@
               </div>
 
               <PersonInfo
-                v-for="(person, index) in filteredPeople"
+                v-for="person in filteredPeople"
                 :key="person.id"
                 :person="person"
-                @deletePerson="deletePerson(index)"
+                @deletePerson="deletePerson(person)"
               />
               <AddPerson @createNewPerson="createNewPerson" />
             </div>
@@ -67,9 +67,9 @@ export default {
     };
   },
   methods: {
-    ...mapActions(["DELETE_PERSON", "GET_PEOPLE"]),
-    deletePerson(index) {
-      this.DELETE_PERSON(index);
+    ...mapActions(["DELETE_PERSON", "GET_PEOPLE", "REFRESH_SEARCH_VALUE"]),
+    deletePerson(person) {
+      this.DELETE_PERSON(person);
       this.filteredPeople = [...this.PEOPLE];
     },
     filterPeople(value) {
@@ -97,6 +97,9 @@ export default {
   mounted() {
     this.GET_PEOPLE();
     this.filterPeople(this.SEARCH_VALUE);
+  },
+  updated() {
+    this.REFRESH_SEARCH_VALUE();
   }
 };
 </script>

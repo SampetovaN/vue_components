@@ -45,6 +45,13 @@
   margin: 0 auto 27px;
   position: relative;
   width:100%;
+  cursor: pointer;
+  outline: none;
+  &:active,
+  &:focus,
+  &:hover {
+    outline: none;
+  }
 }
 
 .range__pin {

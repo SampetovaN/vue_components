@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="TODO&#10;- addUser&#10;- Range">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RangeComponent.vue" afterDir="false" />
+    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="TODO&#10;- Range">
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.027b3102.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.3762c204.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.3762c204.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b2fa92b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b2fa92b1.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-700.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/open-sans-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddPerson.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddPerson.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PersonInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RangeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RangeComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/People.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/People.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Person.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Range.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Range.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,17 @@
       <recent name="C:\Users\nikas\WebstormProjects\vue_components\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
       </list>
     </recent_temporary>
