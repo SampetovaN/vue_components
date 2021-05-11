@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="TODO&#10;- Range">
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    <list default="true" id="3e1e80a9-8a28-4c0c-b556-bc590454dd79" name="Default Changelist" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.027b3102.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.3762c204.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.3762c204.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b2fa92b1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b2fa92b1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/Range.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RangeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RangeComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/People.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/People.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Range.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Range.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +41,7 @@
       <recent name="C:\Users\nikas\WebstormProjects\vue_components\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -80,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620564600632</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done">
+      <created>1620766999523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620766999523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +141,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="part 2 start" />
     <MESSAGE value="TODO&#10;- addUser&#10;- Range" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO&#10;- addUser&#10;- Range" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
 </project>
